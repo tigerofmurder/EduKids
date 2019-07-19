@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1536749730 source:/home/tigerofmurder/Documentos/IS/AssetManager.cpp
+	"AssetManager.hpp"
+
+1563444214 /home/tigerofmurder/Documentos/IS/AssetManager.hpp
+	<map>
+	<SFML/Graphics.hpp>
+
+1563017596 source:/home/tigerofmurder/Documentos/IS/backButton.cpp
+	"backButton.hpp"
+
+1563017326 /home/tigerofmurder/Documentos/IS/backButton.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+
+1561322450 /home/tigerofmurder/Documentos/IS/Game.hpp
+	<memory>
+	<string>
+	<SFML/Graphics.hpp>
+	"StateMachine.hpp"
+	"AssetManager.hpp"
+	"InputManager.hpp"
+
+1561367182 /home/tigerofmurder/Documentos/IS/StateMachine.hpp
+	<memory>
+	<stack>
+	"State.hpp"
+
+1561320516 /home/tigerofmurder/Documentos/IS/State.hpp
+
+1563060992 /home/tigerofmurder/Documentos/IS/InputManager.hpp
+	"SFML/Graphics.hpp"
+
+1563414190 /home/tigerofmurder/Documentos/IS/DEFINITIONS.hpp
+
+1563448296 source:/home/tigerofmurder/Documentos/IS/finishState.cpp
+	<iostream>
+	"finishState.hpp"
+
+1563447328 /home/tigerofmurder/Documentos/IS/finishState.hpp
+	<iostream>
+	<vector>
+	"DEFINITIONS.hpp"
+	<SFML/Graphics.hpp>
+	"State.hpp"
+	"Game.hpp"
+	"MainMenuState.hpp"
+	"backButton.hpp"
+	"RecomEsp.hpp"
+	"sstream"
+	<string>
+
+1563445354 /home/tigerofmurder/Documentos/IS/MainMenuState.hpp
+	<sstream>
+	<string>
+	<SFML/Graphics.hpp>
+	"State.hpp"
+	"Game.hpp"
+	"newState1.h"
+	"GameOverState.hpp"
+	"numbers.hpp"
+	<vector>
+	"menuOptions.hpp"
+	"specialRewardAnalisys.h"
+
+1563452710 /home/tigerofmurder/Documentos/IS/newState1.h
+	<iostream>
+	<vector>
+	"DEFINITIONS.hpp"
+	<SFML/Graphics.hpp>
+	"State.hpp"
+	"Game.hpp"
+	"MainMenuState.hpp"
+	"Options.h"
+	"Question.hpp"
+	"backButton.hpp"
+	"generateQuestion.h"
+	"goodJob.h"
+	"RecomEsp.hpp"
+	"Life.h"
+	"finishState.hpp"
+	"specialRewardAnalisys.h"
+
+1563090508 /home/tigerofmurder/Documentos/IS/Options.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+	<sstream>
+
+1563076668 /home/tigerofmurder/Documentos/IS/Question.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+
+1563452478 /home/tigerofmurder/Documentos/IS/generateQuestion.h
+	<iostream>
+	"DEFINITIONS.hpp"
+	<sstream>
+	<time.h>
+	<string>
+
+1563079580 /home/tigerofmurder/Documentos/IS/goodJob.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+
+1563453346 /home/tigerofmurder/Documentos/IS/RecomEsp.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+
+1563407924 /home/tigerofmurder/Documentos/IS/Life.h
+	"DEFINITIONS.hpp"
+	"SFML/Graphics.hpp"
+	"Game.hpp"
+	<vector>
+	<iostream>
+
+1563454644 /home/tigerofmurder/Documentos/IS/specialRewardAnalisys.h
+	<iostream>
+	"DEFINITIONS.hpp"
+
+1563412106 /home/tigerofmurder/Documentos/IS/GameOverState.hpp
+	<iostream>
+	<vector>
+	"DEFINITIONS.hpp"
+	<SFML/Graphics.hpp>
+	"State.hpp"
+	"Game.hpp"
+	"MainMenuState.hpp"
+	"backButton.hpp"
+
+1562886120 /home/tigerofmurder/Documentos/IS/numbers.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+
+1563088458 /home/tigerofmurder/Documentos/IS/menuOptions.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+	<vector>
+	<sstream>
+
+1536795448 source:/home/tigerofmurder/Documentos/IS/Game.cpp
+	"Game.hpp"
+	"SplashState.hpp"
+
+1561322600 /home/tigerofmurder/Documentos/IS/SplashState.hpp
+	<SFML/Graphics.hpp>
+	"State.hpp"
+	"Game.hpp"
+
+1563451734 source:/home/tigerofmurder/Documentos/IS/GameOverState.cpp
+	"GameOverState.hpp"
+
+1563452322 source:/home/tigerofmurder/Documentos/IS/generateQuestion.cpp
+	"generateQuestion.h"
+
+1563083482 source:/home/tigerofmurder/Documentos/IS/goodJob.cpp
+	"goodJob.h"
+
+1562873954 source:/home/tigerofmurder/Documentos/IS/InputManager.cpp
+	"InputManager.hpp"
+
+1563412412 source:/home/tigerofmurder/Documentos/IS/Life.cpp
+	"Life.h"
+
+1563445336 source:/home/tigerofmurder/Documentos/IS/MainMenuState.cpp
+	"DEFINITIONS.hpp"
+	"MainMenuState.hpp"
+	<iostream>
+
+1563089134 source:/home/tigerofmurder/Documentos/IS/menuOptions.cpp
+	"menuOptions.hpp"
+
+1562884206 source:/home/tigerofmurder/Documentos/IS/numbers.cpp
+	"numbers.hpp"
+
+1563090508 source:/home/tigerofmurder/Documentos/IS/Options.cpp
+	"Options.h"
+
+1563085940 source:/home/tigerofmurder/Documentos/IS/Question.cpp
+	"Question.hpp"
+
+1563447972 source:/home/tigerofmurder/Documentos/IS/RecomEsp.cpp
+	"RecomEsp.hpp"
+
+1563454658 source:/home/tigerofmurder/Documentos/IS/specialRewardAnalisys.cpp
+	"specialRewardAnalisys.h"
+
+1563414150 source:/home/tigerofmurder/Documentos/IS/SplashState.cpp
+	<sstream>
+	"SplashState.hpp"
+	"DEFINITIONS.hpp"
+	"MainMenuState.hpp"
+	<iostream>
+
+1536745410 source:/home/tigerofmurder/Documentos/IS/StateMachine.cpp
+	"StateMachine.hpp"
+
+1563472149 source:/home/tigerofmurder/Documentos/IS/main.cpp
+	<bits/stdc++.h>
+	"Game.hpp"
+	"DEFINITIONS.hpp"
+
+1563472137 source:/home/tigerofmurder/Documentos/IS/newState1.cpp
+	"newState1.h"
+

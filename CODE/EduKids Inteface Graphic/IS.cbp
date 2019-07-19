@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/IS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/IS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+		</Linker>
+		<Unit filename="AssetManager.cpp" />
+		<Unit filename="AssetManager.hpp" />
+		<Unit filename="DEFINITIONS.hpp" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.hpp" />
+		<Unit filename="GameOverState.cpp" />
+		<Unit filename="GameOverState.hpp" />
+		<Unit filename="InputManager.cpp" />
+		<Unit filename="InputManager.hpp" />
+		<Unit filename="Life.cpp" />
+		<Unit filename="Life.h" />
+		<Unit filename="MainMenuState.cpp" />
+		<Unit filename="MainMenuState.hpp" />
+		<Unit filename="Options.cpp" />
+		<Unit filename="Options.h" />
+		<Unit filename="Question.cpp" />
+		<Unit filename="Question.hpp" />
+		<Unit filename="RecomEsp.cpp" />
+		<Unit filename="RecomEsp.hpp" />
+		<Unit filename="SplashState.cpp" />
+		<Unit filename="SplashState.hpp" />
+		<Unit filename="State.hpp" />
+		<Unit filename="StateMachine.cpp" />
+		<Unit filename="StateMachine.hpp" />
+		<Unit filename="backButton.cpp" />
+		<Unit filename="backButton.hpp" />
+		<Unit filename="finishState.cpp" />
+		<Unit filename="finishState.hpp" />
+		<Unit filename="generateQuestion.cpp" />
+		<Unit filename="generateQuestion.h" />
+		<Unit filename="goodJob.cpp" />
+		<Unit filename="goodJob.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menuOptions.cpp" />
+		<Unit filename="menuOptions.hpp" />
+		<Unit filename="newState1.cpp" />
+		<Unit filename="newState1.h" />
+		<Unit filename="numbers.cpp" />
+		<Unit filename="numbers.hpp" />
+		<Unit filename="specialRewardAnalisys.cpp" />
+		<Unit filename="specialRewardAnalisys.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
